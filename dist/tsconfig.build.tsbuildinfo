@@ -2777,7 +2777,7 @@
         "affectsGlobalScope": false
       },
       "../src/question/question.entity.ts": {
-        "version": "e9ef68af35ade3261d50c2bba4dade9f2b24576d019b8964488b0cff4159fa30",
+        "version": "9fc97c20e316c578a028e0635323038a3a3a0d5f76f4e1783f0f5e1656739e73",
         "signature": "c8b102fa1e9c814b31aad8e2072deb823b3efcd4a8acd6d22815ac4bc4bc59be",
         "affectsGlobalScope": false
       },
@@ -2787,8 +2787,8 @@
         "affectsGlobalScope": false
       },
       "../src/question/question.controller.ts": {
-        "version": "44549df84b9e435bbce0374462338388fd5dc5094c09d0da37bee075a83a8c26",
-        "signature": "2320bfc32434bc80e12d604d3a8189b5bbf9d584d02e9b6e8fe10f2ce05d5e24",
+        "version": "b47e3efed77484b4ea893a109f5ec04bd82d4b038536540b48c91ebd9a2c2a62",
+        "signature": "a5304cbe9b50b220173cf86fed914b6667a100e4610e0060586bd9b97b3a35e8",
         "affectsGlobalScope": false
       },
       "../src/question/question.module.ts": {
@@ -2796,8 +2796,28 @@
         "signature": "c25803029ad2bba7b81a981487ef26779c727cfd0a29c4a42f8e6122cf72b5e3",
         "affectsGlobalScope": false
       },
+      "../src/claim/claim.entity.ts": {
+        "version": "dee7187abc63c6ca6cd6ddc39e38db5d7b6ed4b2fd4222b13ab70ab70f595f40",
+        "signature": "0cd04bfdaed8d851442a7fb097834ce8763acafb83e37b3d362fa1c576a1ca34",
+        "affectsGlobalScope": false
+      },
+      "../src/claim/claim.service.ts": {
+        "version": "bab76b93a810db35b150645c268e58075e763d2b576e51fc7dd4fdeb71069430",
+        "signature": "8250312198dd8c060986e7470ad81814e2cacec7a8f0dc03845343d1320f8354",
+        "affectsGlobalScope": false
+      },
+      "../src/claim/claim.controller.ts": {
+        "version": "279028f0fed8648ce259c7336840e97b1a29fd059ef5bde5c6a72a10666906c7",
+        "signature": "a3113c8c08908bdc0b45da16241a9171ca6a8a6d9b5e73bfbab3db18f6fa45ee",
+        "affectsGlobalScope": false
+      },
+      "../src/claim/claim.module.ts": {
+        "version": "10c6f8d7ce2e2be6cb61c82944459c6a4d1e3e9075f594fabfd0d3a5348b9f32",
+        "signature": "e857c31d07301b7cb6a54eb7437723ff129979999ff2e94a5a54bf7ec3d2c0f9",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "c98bf863575c28a8846fce283e057bf6e87fb58de8b5cdb3db62b42eb0cca8af",
+        "version": "c31fb67646d9d2801d44717f3705b8c270e633f4dc75481bf91db5b360ca9579",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -2982,7 +3002,7 @@
         "affectsGlobalScope": false
       },
       "../src/main.ts": {
-        "version": "e25d9bd8f80b6ffbcc8826ed1b407e747e4fbe346c5bab62cbe5837da4eeb189",
+        "version": "2a931ecb11b7bee6e7afe1a48a08ef7058f4cc36e0ec7d6ef2c5bed6eb01ff56",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
         "affectsGlobalScope": false
       },
@@ -3429,6 +3449,11 @@
       "../node_modules/@types/uglify-js/index.d.ts": {
         "version": "dbef1822091af2c0ee24d2be8222502dc1160473ea0b4709ba5f3856cec93537",
         "signature": "dbef1822091af2c0ee24d2be8222502dc1160473ea0b4709ba5f3856cec93537",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@types/validator/index.d.ts": {
+        "version": "3ff2dd07f8aa032e6eb7ffacd8f4e1f0b8dac4ba02c1f6ea1413187aef947ec9",
+        "signature": "3ff2dd07f8aa032e6eb7ffacd8f4e1f0b8dac4ba02c1f6ea1413187aef947ec9",
         "affectsGlobalScope": false
       },
       "../node_modules/anymatch/index.d.ts": {
@@ -5962,10 +5987,33 @@
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/app.controller.ts",
         "../src/app.service.ts",
+        "../src/claim/claim.module.ts",
         "../src/question/question.module.ts"
       ],
       "../src/app.service.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../src/claim/claim.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjsx/crud/lib/index.d.ts",
+        "../src/claim/claim.entity.ts",
+        "../src/claim/claim.service.ts"
+      ],
+      "../src/claim/claim.entity.ts": [
+        "../node_modules/typeorm/index.d.ts"
+      ],
+      "../src/claim/claim.module.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../src/claim/claim.controller.ts",
+        "../src/claim/claim.entity.ts",
+        "../src/claim/claim.service.ts"
+      ],
+      "../src/claim/claim.service.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/claim/claim.entity.ts"
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
@@ -8468,6 +8516,13 @@
       ],
       "../src/app.controller.ts": [
         "../src/app.service.ts"
+      ],
+      "../src/claim/claim.controller.ts": [
+        "../src/claim/claim.service.ts"
+      ],
+      "../src/claim/claim.service.ts": [
+        "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
+        "../src/claim/claim.entity.ts"
       ],
       "../src/question/question.controller.ts": [
         "../src/question/question.service.ts"

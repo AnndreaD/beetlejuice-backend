@@ -6,21 +6,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AppModule = void 0;
+exports.ClaimModule = void 0;
 const common_1 = require("@nestjs/common");
-const app_controller_1 = require("./app.controller");
-const app_service_1 = require("./app.service");
 const typeorm_1 = require("@nestjs/typeorm");
-const question_module_1 = require("./question/question.module");
-const claim_module_1 = require("./claim/claim.module");
-let AppModule = class AppModule {
+const claim_entity_1 = require("./claim.entity");
+const claim_controller_1 = require("./claim.controller");
+const claim_service_1 = require("./claim.service");
+let ClaimModule = class ClaimModule {
 };
-AppModule = __decorate([
+ClaimModule = __decorate([
     common_1.Module({
-        imports: [typeorm_1.TypeOrmModule.forRoot(), question_module_1.QuestionModule, claim_module_1.ClaimModule],
-        controllers: [app_controller_1.AppController],
-        providers: [app_service_1.AppService],
+        imports: [typeorm_1.TypeOrmModule.forFeature([claim_entity_1.ClaimEntity])],
+        controllers: [claim_controller_1.ClaimController],
+        providers: [claim_service_1.ClaimService],
+        exports: [],
     })
-], AppModule);
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+], ClaimModule);
+exports.ClaimModule = ClaimModule;
+//# sourceMappingURL=claim.module.js.map

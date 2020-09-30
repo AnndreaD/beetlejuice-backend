@@ -9,24 +9,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.QuestionEntity = void 0;
+exports.ClaimEntity = void 0;
 const typeorm_1 = require("typeorm");
-let QuestionEntity = class QuestionEntity {
+let ClaimEntity = class ClaimEntity {
 };
 __decorate([
     typeorm_1.PrimaryGeneratedColumn("uuid"),
     __metadata("design:type", String)
-], QuestionEntity.prototype, "id", void 0);
+], ClaimEntity.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column("varchar", { length: 1000, unique: true }),
     __metadata("design:type", String)
-], QuestionEntity.prototype, "text", void 0);
+], ClaimEntity.prototype, "text", void 0);
 __decorate([
     typeorm_1.Column("varchar", { length: 100 }),
     __metadata("design:type", String)
-], QuestionEntity.prototype, "category", void 0);
-QuestionEntity = __decorate([
+], ClaimEntity.prototype, "category", void 0);
+ClaimEntity = __decorate([
     typeorm_1.Entity("question")
-], QuestionEntity);
-exports.QuestionEntity = QuestionEntity;
-//# sourceMappingURL=question.entity.js.map
+], ClaimEntity);
+exports.ClaimEntity = ClaimEntity;
+//# sourceMappingURL=claim.entity.js.map
