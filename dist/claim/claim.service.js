@@ -8,25 +8,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.QuestionEntity = void 0;
-const typeorm_1 = require("typeorm");
-let QuestionEntity = class QuestionEntity {
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
 };
-__decorate([
-    typeorm_1.PrimaryGeneratedColumn("uuid"),
-    __metadata("design:type", String)
-], QuestionEntity.prototype, "id", void 0);
-__decorate([
-    typeorm_1.Column("varchar", { length: 1000, unique: true }),
-    __metadata("design:type", String)
-], QuestionEntity.prototype, "text", void 0);
-__decorate([
-    typeorm_1.Column("varchar", { length: 100 }),
-    __metadata("design:type", String)
-], QuestionEntity.prototype, "category", void 0);
-QuestionEntity = __decorate([
-    typeorm_1.Entity("question")
-], QuestionEntity);
-exports.QuestionEntity = QuestionEntity;
-//# sourceMappingURL=question.entity.js.map
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ClaimService = void 0;
+const common_1 = require("@nestjs/common");
+const typeorm_1 = require("@nestjs/typeorm");
+const crud_typeorm_1 = require("@nestjsx/crud-typeorm");
+const claim_entity_1 = require("./claim.entity");
+let ClaimService = class ClaimService extends crud_typeorm_1.TypeOrmCrudService {
+    constructor(repo) {
+        super(repo);
+    }
+};
+ClaimService = __decorate([
+    common_1.Injectable(),
+    __param(0, typeorm_1.InjectRepository(claim_entity_1.ClaimEntity)),
+    __metadata("design:paramtypes", [Object])
+], ClaimService);
+exports.ClaimService = ClaimService;
+//# sourceMappingURL=claim.service.js.map

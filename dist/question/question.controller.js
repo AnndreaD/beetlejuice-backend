@@ -26,13 +26,13 @@ QuestionController = __decorate([
         },
         params: {
             id: {
-                field: 'id',
-                type: 'uuid',
+                field: "id",
+                type: "uuid",
                 primary: true,
             },
         },
     }),
-    common_1.Controller('question'),
+    common_1.Controller("question"),
     __metadata("design:paramtypes", [question_service_1.QuestionService])
 ], QuestionController);
 exports.QuestionController = QuestionController;

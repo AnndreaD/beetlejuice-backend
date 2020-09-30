@@ -9,24 +9,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.QuestionEntity = void 0;
-const typeorm_1 = require("typeorm");
-let QuestionEntity = class QuestionEntity {
+exports.ClaimController = void 0;
+const common_1 = require("@nestjs/common");
+const crud_1 = require("@nestjsx/crud");
+const claim_service_1 = require("./claim.service");
+const claim_entity_1 = require("./claim.entity");
+let ClaimController = class ClaimController {
+    constructor(service) {
+        this.service = service;
+    }
 };
-__decorate([
-    typeorm_1.PrimaryGeneratedColumn("uuid"),
-    __metadata("design:type", String)
-], QuestionEntity.prototype, "id", void 0);
-__decorate([
-    typeorm_1.Column("varchar", { length: 1000, unique: true }),
-    __metadata("design:type", String)
-], QuestionEntity.prototype, "text", void 0);
-__decorate([
-    typeorm_1.Column("varchar", { length: 100 }),
-    __metadata("design:type", String)
-], QuestionEntity.prototype, "category", void 0);
-QuestionEntity = __decorate([
-    typeorm_1.Entity("question")
-], QuestionEntity);
-exports.QuestionEntity = QuestionEntity;
-//# sourceMappingURL=question.entity.js.map
+ClaimController = __decorate([
+    crud_1.Crud({
+        model: {
+            type: claim_entity_1.ClaimEntity,
+        },
+        params: {
+            id: {
+                field: "id",
+                type: "uuid",
+                primary: true,
+            },
+        },
+    }),
+    common_1.Controller("claim"),
+    __metadata("design:paramtypes", [claim_service_1.ClaimService])
+], ClaimController);
+exports.ClaimController = ClaimController;
+//# sourceMappingURL=claim.controller.js.map

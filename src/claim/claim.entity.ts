@@ -1,7 +1,7 @@
 import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity("question")
-export class QuestionEntity {
+export class ClaimEntity {
   @PrimaryGeneratedColumn("uuid") id: string;
 
   @Column("varchar", { length: 1000, unique: true })
