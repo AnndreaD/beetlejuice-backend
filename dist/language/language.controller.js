@@ -8,45 +8,31 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var __param = (this && this.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.QuestionController = void 0;
+exports.LanguageController = void 0;
 const common_1 = require("@nestjs/common");
 const crud_1 = require("@nestjsx/crud");
-const question_service_1 = require("./question.service");
-const question_entity_1 = require("./question.entity");
-let QuestionController = class QuestionController {
+const language_entity_1 = require("./language.entity");
+const language_service_1 = require("./language.service");
+let LanguageController = class LanguageController {
     constructor(service) {
         this.service = service;
     }
-    async findRandomizedByQuantity(id) {
-        return this.service.findRandomizedByQuantity();
-    }
 };
-__decorate([
-    common_1.Get("/randomquantity:number"),
-    __param(0, common_1.Param("id")),
-    __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number]),
-    __metadata("design:returntype", Promise)
-], QuestionController.prototype, "findRandomizedByQuantity", null);
-QuestionController = __decorate([
+LanguageController = __decorate([
     crud_1.Crud({
         model: {
-            type: question_entity_1.QuestionEntity,
+            type: language_entity_1.LanguageEntity,
         },
         params: {
             id: {
                 field: "id",
-                type: "uuid",
                 primary: true,
             },
         },
     }),
-    common_1.Controller("question"),
-    __metadata("design:paramtypes", [question_service_1.QuestionService])
-], QuestionController);
-exports.QuestionController = QuestionController;
-//# sourceMappingURL=question.controller.js.map
+    common_1.Controller("language"),
+    __metadata("design:paramtypes", [language_service_1.LanguageService])
+], LanguageController);
+exports.LanguageController = LanguageController;
+//# sourceMappingURL=language.controller.js.map

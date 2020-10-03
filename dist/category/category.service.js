@@ -12,23 +12,20 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.QuestionService = void 0;
+exports.CategoryService = void 0;
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const crud_typeorm_1 = require("@nestjsx/crud-typeorm");
-const question_entity_1 = require("./question.entity");
-let QuestionService = class QuestionService extends crud_typeorm_1.TypeOrmCrudService {
+const category_entity_1 = require("./category.entity");
+let CategoryService = class CategoryService extends crud_typeorm_1.TypeOrmCrudService {
     constructor(repo) {
         super(repo);
     }
-    findRandomizedByQuantity() {
-        return this.repo.query("select * from question order by random() limit 5;");
-    }
 };
-QuestionService = __decorate([
+CategoryService = __decorate([
     common_1.Injectable(),
-    __param(0, typeorm_1.InjectRepository(question_entity_1.QuestionEntity)),
+    __param(0, typeorm_1.InjectRepository(category_entity_1.CategoryEntity)),
     __metadata("design:paramtypes", [Object])
-], QuestionService);
-exports.QuestionService = QuestionService;
-//# sourceMappingURL=question.service.js.map
+], CategoryService);
+exports.CategoryService = CategoryService;
+//# sourceMappingURL=category.service.js.map

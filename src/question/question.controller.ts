@@ -1,4 +1,4 @@
-import { Controller } from "@nestjs/common";
+import { Controller, Get, Param } from "@nestjs/common";
 import { Crud } from "@nestjsx/crud";
 import { QuestionService } from "./question.service";
 import { QuestionEntity } from "./question.entity";
@@ -17,4 +17,9 @@ import { QuestionEntity } from "./question.entity";
 @Controller("question")
 export class QuestionController {
   constructor(public service: QuestionService) {}
+
+  @Get("/randomquantity:number")
+  async findRandomizedByQuantity(@Param("id") id: number) {
+    return this.service.findRandomizedByQuantity();
+  }
 }
