@@ -1,4 +1,4 @@
-import { Controller } from "@nestjs/common";
+import { Controller, Get, Query } from "@nestjs/common";
 import { Crud } from "@nestjsx/crud";
 import { ClaimService } from "./claim.service";
 import { ClaimEntity } from "./claim.entity";
