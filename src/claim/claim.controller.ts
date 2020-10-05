@@ -25,9 +25,9 @@ export class ClaimController {
   @Get("/randomquantityqlc:number")
   async findRandomizedByQLC(
     @Param("quantity") quantity: number,
-    @Param("languageid") languageid: number,
-    @Param("languageid") categoryid: number
+    @Param("language") language: number,
+    @Param("category") category: number
   ) {
-    return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
+    return this.service.findByRandomizedQLC(quantity, language, category);
   }
 }

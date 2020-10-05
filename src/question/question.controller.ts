@@ -18,17 +18,17 @@ import { QuestionEntity } from "./question.entity";
 export class QuestionController {
   constructor(public service: QuestionService) {}
 
-  @Get("/randomquantity:number")
-  async findRandomizedByQuantity(@Param("quantity") quantity: number) {
+  @Get("/randomquantity/:quantity")
+  async findRandomizedByQuantity(@Param("quantity") quantity: string) {
     return this.service.findRandomizedByQuantity(quantity);
   }
 
-  @Get("/randomquantityqlc:number")
+  @Get("/randomquantity/:quantity/:language/:category")
   async findRandomizedByQLC(
     @Param("quantity") quantity: number,
-    @Param("languageid") languageid: number,
-    @Param("languageid") categoryid: number
+    @Param("language") language: number,
+    @Param("category") category: number
   ) {
-    return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
+    return this.service.findByRandomizedQLC(quantity, language, category);
   }
 }

@@ -24,18 +24,17 @@ __decorate([
     __metadata("design:type", String)
 ], ClaimEntity.prototype, "text", void 0);
 __decorate([
-    typeorm_1.ManyToOne((type) => category_entity_1.CategoryEntity, (category) => category.id, {
+    typeorm_1.ManyToOne(() => category_entity_1.CategoryEntity, (category) => category.id, {
         nullable: false,
         eager: true,
     }),
     __metadata("design:type", category_entity_1.CategoryEntity)
 ], ClaimEntity.prototype, "category", void 0);
 __decorate([
-    typeorm_1.ManyToOne((type) => language_entity_1.LanguageEntity, (language) => language.id, {
+    typeorm_1.ManyToOne(() => language_entity_1.LanguageEntity, (language) => language.id, {
         nullable: false,
         eager: true,
     }),
-    typeorm_1.JoinColumn(),
     __metadata("design:type", language_entity_1.LanguageEntity)
 ], ClaimEntity.prototype, "language", void 0);
 ClaimEntity = __decorate([

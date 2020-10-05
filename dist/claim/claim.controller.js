@@ -24,8 +24,8 @@ let ClaimController = class ClaimController {
     async findRandomizedByQuantity(quantity) {
         return this.service.findRandomizedByQuantity(quantity);
     }
-    async findRandomizedByQLC(quantity, languageid, categoryid) {
-        return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
+    async findRandomizedByQLC(quantity, language, category) {
+        return this.service.findByRandomizedQLC(quantity, language, category);
     }
 };
 __decorate([
@@ -38,8 +38,8 @@ __decorate([
 __decorate([
     common_1.Get("/randomquantityqlc:number"),
     __param(0, common_1.Param("quantity")),
-    __param(1, common_1.Param("languageid")),
-    __param(2, common_1.Param("languageid")),
+    __param(1, common_1.Param("language")),
+    __param(2, common_1.Param("category")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number, Number, Number]),
     __metadata("design:returntype", Promise)
