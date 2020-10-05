@@ -14,7 +14,7 @@ export class QuestionService extends TypeOrmCrudService<QuestionEntity> {
   // middleground -> middleground + easy
   // easy -> only easy
 
-  findRandomizedByQuantity(quantity: number) {
+  findRandomizedByQuantity(quantity: string) {
     return this.repo.query(
       `select * from question order by random() limit ${quantity};`
     );

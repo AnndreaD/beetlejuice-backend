@@ -16,7 +16,7 @@ export class ClaimEntity {
   text: string;
 
   @ManyToOne(
-    (type) => CategoryEntity,
+    () => CategoryEntity,
     (category) => category.id,
     {
       nullable: false,
@@ -26,13 +26,12 @@ export class ClaimEntity {
   category: CategoryEntity;
 
   @ManyToOne(
-    (type) => LanguageEntity,
+    () => LanguageEntity,
     (language) => language.id,
     {
       nullable: false,
       eager: true,
     }
   )
-  @JoinColumn()
   language: LanguageEntity;
 }
