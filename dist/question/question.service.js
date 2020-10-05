@@ -21,8 +21,11 @@ let QuestionService = class QuestionService extends crud_typeorm_1.TypeOrmCrudSe
     constructor(repo) {
         super(repo);
     }
-    findRandomizedByQuantity() {
-        return this.repo.query("select * from question order by random() limit 5;");
+    findRandomizedByQuantity(quantity) {
+        return this.repo.query(`select * from question order by random() limit ${quantity};`);
+    }
+    findByRandomizedQLC(quantity, languageid, categoryid) {
+        return this.repo.query(`select * from question where "languageId"=${languageid} and  "categoryId"=${categoryid} order by random() limit ${quantity};`);
     }
 };
 QuestionService = __decorate([

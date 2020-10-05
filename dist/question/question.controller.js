@@ -21,17 +21,29 @@ let QuestionController = class QuestionController {
     constructor(service) {
         this.service = service;
     }
-    async findRandomizedByQuantity(id) {
-        return this.service.findRandomizedByQuantity();
+    async findRandomizedByQuantity(quantity) {
+        return this.service.findRandomizedByQuantity(quantity);
+    }
+    async findRandomizedByQLC(quantity, languageid, categoryid) {
+        return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
     }
 };
 __decorate([
     common_1.Get("/randomquantity:number"),
-    __param(0, common_1.Param("id")),
+    __param(0, common_1.Param("quantity")),
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number]),
     __metadata("design:returntype", Promise)
 ], QuestionController.prototype, "findRandomizedByQuantity", null);
+__decorate([
+    common_1.Get("/randomquantityqlc:number"),
+    __param(0, common_1.Param("quantity")),
+    __param(1, common_1.Param("languageid")),
+    __param(2, common_1.Param("languageid")),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Number, Number, Number]),
+    __metadata("design:returntype", Promise)
+], QuestionController.prototype, "findRandomizedByQLC", null);
 QuestionController = __decorate([
     crud_1.Crud({
         model: {
@@ -40,7 +52,6 @@ QuestionController = __decorate([
         params: {
             id: {
                 field: "id",
-                type: "uuid",
                 primary: true,
             },
         },

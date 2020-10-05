@@ -16,19 +16,25 @@ const typeorm_1 = require("typeorm");
 let QuestionEntity = class QuestionEntity {
 };
 __decorate([
-    typeorm_1.PrimaryGeneratedColumn("uuid"),
-    __metadata("design:type", String)
+    typeorm_1.PrimaryGeneratedColumn(),
+    __metadata("design:type", Number)
 ], QuestionEntity.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column("varchar", { length: 1000, unique: true }),
     __metadata("design:type", String)
 ], QuestionEntity.prototype, "text", void 0);
 __decorate([
-    typeorm_1.OneToMany((type) => category_entity_1.CategoryEntity, (category) => category.name),
+    typeorm_1.ManyToOne(() => category_entity_1.CategoryEntity, (category) => category.id, {
+        nullable: false,
+        eager: true,
+    }),
     __metadata("design:type", category_entity_1.CategoryEntity)
 ], QuestionEntity.prototype, "category", void 0);
 __decorate([
-    typeorm_1.OneToMany((type) => language_entity_1.LanguageEntity, (language) => language.name),
+    typeorm_1.ManyToOne(() => language_entity_1.LanguageEntity, (language) => language.id, {
+        nullable: false,
+        eager: true,
+    }),
     __metadata("design:type", language_entity_1.LanguageEntity)
 ], QuestionEntity.prototype, "language", void 0);
 QuestionEntity = __decorate([

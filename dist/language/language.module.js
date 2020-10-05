@@ -6,21 +6,21 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ClaimModule = void 0;
+exports.LanguageModule = void 0;
 const common_1 = require("@nestjs/common");
 const typeorm_1 = require("@nestjs/typeorm");
 const language_controller_1 = require("./language.controller");
 const language_entity_1 = require("./language.entity");
 const language_service_1 = require("./language.service");
-let ClaimModule = class ClaimModule {
+let LanguageModule = class LanguageModule {
 };
-ClaimModule = __decorate([
+LanguageModule = __decorate([
     common_1.Module({
         imports: [typeorm_1.TypeOrmModule.forFeature([language_entity_1.LanguageEntity])],
         controllers: [language_controller_1.LanguageController],
         providers: [language_service_1.LanguageService],
-        exports: [],
+        exports: [typeorm_1.TypeOrmModule],
     })
-], ClaimModule);
-exports.ClaimModule = ClaimModule;
+], LanguageModule);
+exports.LanguageModule = LanguageModule;
 //# sourceMappingURL=language.module.js.map

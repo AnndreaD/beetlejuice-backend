@@ -1,23 +1,37 @@
 import { CategoryEntity } from "src/category/category.entity";
 import { LanguageEntity } from "src/language/language.entity";
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm";
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  ManyToOne,
+  JoinColumn,
+} from "typeorm";
 
 @Entity("question")
 export class QuestionEntity {
-  @PrimaryGeneratedColumn("uuid") id: string;
+  @PrimaryGeneratedColumn() id: number;
 
   @Column("varchar", { length: 1000, unique: true })
   text: string;
 
-  @OneToMany(
-    (type) => CategoryEntity,
-    (category) => category.name
+  @ManyToOne(
+    () => CategoryEntity,
+    (category) => category.id,
+    {
+      nullable: false,
+      eager: true,
+    }
   )
   category: CategoryEntity;
 
-  @OneToMany(
-    (type) => LanguageEntity,
-    (language) => language.name
+  @ManyToOne(
+    () => LanguageEntity,
+    (language) => language.id,
+    {
+      nullable: false,
+      eager: true,
+    }
   )
   language: LanguageEntity;
 }

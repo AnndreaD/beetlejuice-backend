@@ -19,7 +19,7 @@ ClaimModule = __decorate([
         imports: [typeorm_1.TypeOrmModule.forFeature([claim_entity_1.ClaimEntity])],
         controllers: [claim_controller_1.ClaimController],
         providers: [claim_service_1.ClaimService],
-        exports: [],
+        exports: [typeorm_1.TypeOrmModule],
     })
 ], ClaimModule);
 exports.ClaimModule = ClaimModule;

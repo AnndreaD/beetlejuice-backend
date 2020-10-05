@@ -8,6 +8,6 @@ import { LanguageService } from "./language.service";
   imports: [TypeOrmModule.forFeature([LanguageEntity])],
   controllers: [LanguageController],
   providers: [LanguageService],
-  exports: [],
+  exports: [TypeOrmModule],
 })
-export class ClaimModule {}
+export class LanguageModule {}

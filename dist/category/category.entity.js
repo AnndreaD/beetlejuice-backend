@@ -10,6 +10,8 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CategoryEntity = void 0;
+const claim_entity_1 = require("../claim/claim.entity");
+const question_entity_1 = require("../question/question.entity");
 const typeorm_1 = require("typeorm");
 let CategoryEntity = class CategoryEntity {
 };
@@ -21,6 +23,14 @@ __decorate([
     typeorm_1.Column("varchar", { length: 100, unique: true }),
     __metadata("design:type", String)
 ], CategoryEntity.prototype, "name", void 0);
+__decorate([
+    typeorm_1.ManyToOne((type) => question_entity_1.QuestionEntity, (question) => question.id),
+    __metadata("design:type", Array)
+], CategoryEntity.prototype, "questions", void 0);
+__decorate([
+    typeorm_1.ManyToOne((type) => claim_entity_1.ClaimEntity, (claim) => claim.id),
+    __metadata("design:type", Array)
+], CategoryEntity.prototype, "claims", void 0);
 CategoryEntity = __decorate([
     typeorm_1.Entity("category")
 ], CategoryEntity);

@@ -7,5 +7,6 @@
   "database": "beetledb",
   "entities": ["dist/**/*.entity.js"],
   "synchronize": true,
-  "logging": true
+  "logging": true,
+  "autoLoadEntities": true
 }
