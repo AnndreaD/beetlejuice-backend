@@ -19,7 +19,7 @@ QuestionModule = __decorate([
         imports: [typeorm_1.TypeOrmModule.forFeature([question_entity_1.QuestionEntity])],
         controllers: [question_controller_1.QuestionController],
         providers: [question_service_1.QuestionService],
-        exports: [],
+        exports: [typeorm_1.TypeOrmModule],
     })
 ], QuestionModule);
 exports.QuestionModule = QuestionModule;

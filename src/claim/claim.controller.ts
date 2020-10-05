@@ -1,4 +1,4 @@
-import { Controller, Get, Query } from "@nestjs/common";
+import { Controller, Get, Query, Param } from "@nestjs/common";
 import { Crud } from "@nestjsx/crud";
 import { ClaimService } from "./claim.service";
 import { ClaimEntity } from "./claim.entity";
@@ -9,7 +9,6 @@ import { ClaimEntity } from "./claim.entity";
   params: {
     id: {
       field: "id",
-      type: "uuid",
       primary: true,
     },
   },
@@ -17,4 +16,18 @@ import { ClaimEntity } from "./claim.entity";
 @Controller("claim")
 export class ClaimController {
   constructor(public service: ClaimService) {}
+
+  @Get("/randomquantity:number")
+  async findRandomizedByQuantity(@Param("quantity") quantity: number) {
+    return this.service.findRandomizedByQuantity(quantity);
+  }
+
+  @Get("/randomquantityqlc:number")
+  async findRandomizedByQLC(
+    @Param("quantity") quantity: number,
+    @Param("languageid") languageid: number,
+    @Param("languageid") categoryid: number
+  ) {
+    return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
+  }
 }

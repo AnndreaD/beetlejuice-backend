@@ -1,2 +1,2 @@
-export declare class ClaimModule {
+export declare class CategoryModule {
 }

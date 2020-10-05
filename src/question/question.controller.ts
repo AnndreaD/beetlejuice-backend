@@ -2,6 +2,7 @@ import { Controller, Get, Param } from "@nestjs/common";
 import { Crud } from "@nestjsx/crud";
 import { QuestionService } from "./question.service";
 import { QuestionEntity } from "./question.entity";
+
 @Crud({
   model: {
     type: QuestionEntity,
@@ -9,7 +10,6 @@ import { QuestionEntity } from "./question.entity";
   params: {
     id: {
       field: "id",
-      type: "uuid",
       primary: true,
     },
   },
@@ -19,7 +19,16 @@ export class QuestionController {
   constructor(public service: QuestionService) {}
 
   @Get("/randomquantity:number")
-  async findRandomizedByQuantity(@Param("id") id: number) {
-    return this.service.findRandomizedByQuantity();
+  async findRandomizedByQuantity(@Param("quantity") quantity: number) {
+    return this.service.findRandomizedByQuantity(quantity);
+  }
+
+  @Get("/randomquantityqlc:number")
+  async findRandomizedByQLC(
+    @Param("quantity") quantity: number,
+    @Param("languageid") languageid: number,
+    @Param("languageid") categoryid: number
+  ) {
+    return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
   }
 }

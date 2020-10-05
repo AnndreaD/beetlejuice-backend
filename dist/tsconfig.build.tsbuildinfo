@@ -2776,58 +2776,88 @@
         "signature": "d7073880324319cfecc7f8139ccb9f947e161e29a7f6ea049d3bfb16a5af698b",
         "affectsGlobalScope": false
       },
-      "../src/category/category.entity.ts": {
-        "version": "02b51dcd1d3b009250990bbd2136662c55844a4b4080bcc77bcc6110776122e4",
-        "signature": "6489b34b102a34617de1dd6b26fb7cf0578b860d372e18d350ff2a1f7264a283",
-        "affectsGlobalScope": false
-      },
       "../src/language/language.entity.ts": {
-        "version": "870806c2ff2670c8f632a2c2356daad43545dfa5b459afc721ad5cd368b7637e",
-        "signature": "c81b97b200e675bde21f2bd3ecf38fc3136b35042072440b13e4d32793577f85",
-        "affectsGlobalScope": false
-      },
-      "../src/question/question.entity.ts": {
-        "version": "bb4ed5fd19dbfa8116ce3124841e5ee81ec382ed07eb5eda4829054ecc7eba47",
-        "signature": "07fde24af96455fa9bbf24eba802ee5919153e7aef512697824d7d755c441d71",
-        "affectsGlobalScope": false
-      },
-      "../src/question/question.service.ts": {
-        "version": "42c6ec00e99bf41a74c961d7fad8b587f5cfb00a05373391871ff235ad73f5fb",
-        "signature": "7fcf4697e30b3e7ece31f5724c4ab71e5284fdbed194d84ddfee52f636eb0a3b",
-        "affectsGlobalScope": false
-      },
-      "../src/question/question.controller.ts": {
-        "version": "a6636dd53960498c2163d4262dccded19eb09db52ccb4dcad1715aee84b16d32",
-        "signature": "4510ec25a51588ca5cfe33561e734d6783b367889a6855933ea3e24282af5801",
-        "affectsGlobalScope": false
-      },
-      "../src/question/question.module.ts": {
-        "version": "fd578ed6d6d1f541baaafa3e9fc7a47e0d7f2b4ef31f84005c075e249b43ab8a",
-        "signature": "c25803029ad2bba7b81a981487ef26779c727cfd0a29c4a42f8e6122cf72b5e3",
+        "version": "ee6f691411f5e34eaeca1ead9ba67963d0a38003425bc90fc1b560dbdd18400a",
+        "signature": "ecc22f2e5dfcc3e3eb0f3c36d944ad166e0e2de01f9f96afef1a3ac58303b3e0",
         "affectsGlobalScope": false
       },
       "../src/claim/claim.entity.ts": {
-        "version": "44ad38289d5ba4c226da71c1856f63584719f68910af35a3dca73714a72d5348",
-        "signature": "60efb44a3f835a06caec8c9f69344b75edccb4e14d480602e100b30689db083d",
+        "version": "e4182c30e66ede8b1c570d9ef6ca290f53482a7c39921cb00bc00ec72f27f24d",
+        "signature": "a009fcb548a6757efdf24a79d179231fa66b8cb4c60699a8d102c6eed9be0ebf",
+        "affectsGlobalScope": false
+      },
+      "../src/category/category.entity.ts": {
+        "version": "571af25fbe72dcb2bf9ae7ad001b2698de84463b3928f162ba05750cabd69800",
+        "signature": "bda0bd98c6d75927dff277965aa603a8c5c6eb4b0fddaad43b94c10f8f05c12b",
+        "affectsGlobalScope": false
+      },
+      "../src/question/question.entity.ts": {
+        "version": "3a5ed47140268afc6baf01654c04767867db0480419de2534c0c9038df9afab0",
+        "signature": "aebe49e0c7afe3d368fb25b062caa305f7d4c2fec03a975ef1b4fab299ea9030",
+        "affectsGlobalScope": false
+      },
+      "../src/question/question.service.ts": {
+        "version": "fab6699544a81c3c56b4a5b3d615d9678c1d98eec5b6fe2327dddfa439473fb0",
+        "signature": "c5e594750ce542c617c1bb53cd0ca9b5f07509a8a35b294d75e0fb50b484f00d",
+        "affectsGlobalScope": false
+      },
+      "../src/question/question.controller.ts": {
+        "version": "edc4720450b994e0d39431cb53927737b8612ab7b86c71ba7004a11b7f7c86fe",
+        "signature": "c2e8a307bb0e233cfa8b5ff331646ccaa2f03f6252526373198f40d15435c710",
+        "affectsGlobalScope": false
+      },
+      "../src/question/question.module.ts": {
+        "version": "cc409a6010add0a9cf43e3a6b7bf32deec38457926b480ddc57a8c99f719ad93",
+        "signature": "c25803029ad2bba7b81a981487ef26779c727cfd0a29c4a42f8e6122cf72b5e3",
         "affectsGlobalScope": false
       },
       "../src/claim/claim.service.ts": {
-        "version": "bab76b93a810db35b150645c268e58075e763d2b576e51fc7dd4fdeb71069430",
-        "signature": "8250312198dd8c060986e7470ad81814e2cacec7a8f0dc03845343d1320f8354",
+        "version": "3aa4280b4e2a3a0d832eb56ad76fb03e09d87f09db612bcb87048f6e664ddab3",
+        "signature": "ec06fb30156ad1729d1d30a4fc73661b8033e0818635a852ff86c895cc992eae",
         "affectsGlobalScope": false
       },
       "../src/claim/claim.controller.ts": {
-        "version": "033464ebe60d1c1846045769d39159309fffcfcb96b6795a113358ed9b9808c3",
-        "signature": "a3113c8c08908bdc0b45da16241a9171ca6a8a6d9b5e73bfbab3db18f6fa45ee",
+        "version": "9045497d398a447240bed4e52cf4fadb56a2597442388797c28f5194f6d4c291",
+        "signature": "b702e872984632ac1e3218817a2375efb012b4c27f1cbe473b40d379b5cc0a54",
         "affectsGlobalScope": false
       },
       "../src/claim/claim.module.ts": {
-        "version": "10c6f8d7ce2e2be6cb61c82944459c6a4d1e3e9075f594fabfd0d3a5348b9f32",
+        "version": "46b93a9c86a23daadb7b566a36356d99da83761e8059d27ae7692a8477b22314",
         "signature": "e857c31d07301b7cb6a54eb7437723ff129979999ff2e94a5a54bf7ec3d2c0f9",
         "affectsGlobalScope": false
       },
+      "../src/language/language.service.ts": {
+        "version": "2641abc9d1d4aed33a10848e8e0b0761290bb99c6496fe0a890de7979b5e1a73",
+        "signature": "fd8ac03ca10d70a544371f6a6bac84324671f880a3dfb38226b3cb48b1d427fd",
+        "affectsGlobalScope": false
+      },
+      "../src/language/language.controller.ts": {
+        "version": "1b6c19c9ce6764a63132032103dbe34f61047963ed258e1888890f65a32ce5f7",
+        "signature": "aa2fc55761742f33526cb1f87d1dc04e30ce4f1425103250593fd92672f5aff6",
+        "affectsGlobalScope": false
+      },
+      "../src/language/language.module.ts": {
+        "version": "a522912d3be5ed9b022465a66d07e841f4b668d4fcc8b2a6929859e200945cd0",
+        "signature": "0a9a58f31d31041c5fb6386a2071ae6b04484680c311322626f4dad3dfc80f8a",
+        "affectsGlobalScope": false
+      },
+      "../src/category/category.service.ts": {
+        "version": "b1c79c8a0456f32587358578b99a2a7adaca98b68100894ab2b833dac3350fd7",
+        "signature": "11d44ecba4fd4290d801bd5dcb5951e12450ba1e047b71369d6b602583949d30",
+        "affectsGlobalScope": false
+      },
+      "../src/category/category.controller.ts": {
+        "version": "6f97157f5ca62a269059d281ae5b62d92dc3ea216c72f5bfd79afdf915e22279",
+        "signature": "4f9c1c00bc4c486452abe6aa2e284d415a435469e935974daa001c9d1f87fab9",
+        "affectsGlobalScope": false
+      },
+      "../src/category/category.module.ts": {
+        "version": "837da92a769c1c0a95fb014f765d439165b498f7bb6274c92670576d6edaca50",
+        "signature": "4c8b1a9ee76fcb7fa41873710fed2c8f33f3e63cffb215eae10198e97fef0b31",
+        "affectsGlobalScope": false
+      },
       "../src/app.module.ts": {
-        "version": "c31fb67646d9d2801d44717f3705b8c270e633f4dc75481bf91db5b360ca9579",
+        "version": "aa53add26fe08a653fe7a96864ecea36e4bd5587207ab2c21d9bb78573d70b89",
         "signature": "b82491e2990291580288c5602d4c017238977749d52b17391f0e45d9a29be644",
         "affectsGlobalScope": false
       },
@@ -3011,39 +3041,189 @@
         "signature": "7b5ed961a0e03965299591d73de8b8c41e8a68105ff4fc07a240b0dfb94a5a3d",
         "affectsGlobalScope": false
       },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts": {
+        "version": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
+        "signature": "6ecc423e71318bafbd230e6059e082c377170dfc7e02fccfa600586f8604d452",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts": {
+        "version": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584",
+        "signature": "772f9bdd2bf50c9c01b0506001545e9b878faa7394ad6e7d90b49b179a024584",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts": {
+        "version": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069",
+        "signature": "7042fea4affa85bd05c1c7c9a2e42773738e3aced630b1c7e8e6b48e90a48069",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": {
+        "version": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6",
+        "signature": "10e0bec39a58664907f32d33b825155a4efea3e74e62bd57206bce35486891d6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts": {
+        "version": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058",
+        "signature": "cd1ccdd9fd7980d43dfede5d42ee3d18064baed98b136089cf7c8221d562f058",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts": {
+        "version": "d60f9a4fd1e734e7b79517f02622426ea1000deb7d6549dfdece043353691a4e",
+        "signature": "d60f9a4fd1e734e7b79517f02622426ea1000deb7d6549dfdece043353691a4e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts": {
+        "version": "403d28b5e5f8fcff795ac038902033ec5890143e950af45bd91a3ed231e8b59c",
+        "signature": "403d28b5e5f8fcff795ac038902033ec5890143e950af45bd91a3ed231e8b59c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts": {
+        "version": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393",
+        "signature": "999fa84c5df2d19909d68a43ce89a5dddfb30e526f7796ea995809a09f53e393",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": {
+        "version": "bfeb476eb0049185cb94c2bfcadb3ce1190554bbcf170d2bf7c68ed9bb00458e",
+        "signature": "bfeb476eb0049185cb94c2bfcadb3ce1190554bbcf170d2bf7c68ed9bb00458e",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts": {
+        "version": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585",
+        "signature": "ae23a65a2b664ffe979b0a2a98842e10bdf3af67a356f14bbc9d77eb3ab13585",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts": {
+        "version": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575",
+        "signature": "eccf6ad2a8624329653896e8dbd03f30756cbd902a81b5d3942d6cf0e1a21575",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": {
+        "version": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2",
+        "signature": "334ed2e25a7ebc8db8aac231bab5a5b57a1b6f8063186a92314f4ddf3d74d4e2",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": {
+        "version": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923",
+        "signature": "5af015a9834e0f5cf56a9089ddf0ca87a56bd3f8ad0eb79c8cc95968aa867923",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts": {
+        "version": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116",
+        "signature": "62463aa3d299ae0cdc5473d2ac32213a05753c3adce87a8801c6d2b114a64116",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": {
+        "version": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90",
+        "signature": "c9c2eabaad71c534d7de16385977f95184fdf3ddd0339dadbd5d599488d94f90",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": {
+        "version": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13",
+        "signature": "bdf0a372e233a8f5ab5daba2763ab8897e1044d735c1698a261b8e2ab08d8d13",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": {
+        "version": "e217963df120e4e87abaf374c5060ade29b9b81dafc81287b3710f95b49ffde0",
+        "signature": "e217963df120e4e87abaf374c5060ade29b9b81dafc81287b3710f95b49ffde0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": {
+        "version": "333bf50e91d113db1a244250890f72b5680ed2d0f75e9800cd44a43a780eaabe",
+        "signature": "333bf50e91d113db1a244250890f72b5680ed2d0f75e9800cd44a43a780eaabe",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts": {
+        "version": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce",
+        "signature": "f6b244e6e11ff78419f979c56e1c8eecd277c54fa932a1eae39f69530ed6b0ce",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts": {
+        "version": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9",
+        "signature": "fef736cfb404b4db9aa942f377dbbac6edb76d18aabd3b647713fa75da8939e9",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts": {
+        "version": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01",
+        "signature": "45659c92e49dfca4601acc7e57fbb03a71513c69768984baf86ead8d20387a01",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": {
+        "version": "44d8e9e3978043513ea75120312cee0705a65355fd1253dab6de966adc0409bc",
+        "signature": "44d8e9e3978043513ea75120312cee0705a65355fd1253dab6de966adc0409bc",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts": {
+        "version": "f247409326a7d8d7efe135867ed4123e79eeafe9a8e2d894fc3d39e8a2d02dc0",
+        "signature": "f247409326a7d8d7efe135867ed4123e79eeafe9a8e2d894fc3d39e8a2d02dc0",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts": {
+        "version": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024",
+        "signature": "88d4830f57f71112dc0a2e2068a827e7a6035b8b6ba38bd5e39cbda679afe024",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": {
+        "version": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b",
+        "signature": "8fc97ef271771dc6f81a9c846d007ac4f0cb5779e3f441c1de54dfda5046fe7b",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": {
+        "version": "8b764503654cce10e3570288daa5f7c51a33fce4050eb56df8d4fca9662b8bdf",
+        "signature": "8b764503654cce10e3570288daa5f7c51a33fce4050eb56df8d4fca9662b8bdf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": {
+        "version": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73",
+        "signature": "b64fec482d5c612291eebd81e32993663ee90a5dc05cfe43464e6ef5ee1cae73",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts": {
+        "version": "2dd9d764938d20a0613b89b14d7da644f7be4a70d22f18c3019254029d7a7a3c",
+        "signature": "2dd9d764938d20a0613b89b14d7da644f7be4a70d22f18c3019254029d7a7a3c",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts": {
+        "version": "021034a82ea821144b711eeba792f824f03d30b5cdb3b20a63e9bc5ad0531fdf",
+        "signature": "021034a82ea821144b711eeba792f824f03d30b5cdb3b20a63e9bc5ad0531fdf",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts": {
+        "version": "b251114717c08c462c1a8388155ded58cbdfbadc13488b775a4eaaa59863dc46",
+        "signature": "b251114717c08c462c1a8388155ded58cbdfbadc13488b775a4eaaa59863dc46",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts": {
+        "version": "a2e546426763a9d5d4b5b10b928fb312f8b76e581c8a985362cd04a01859e51a",
+        "signature": "a2e546426763a9d5d4b5b10b928fb312f8b76e581c8a985362cd04a01859e51a",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts": {
+        "version": "33bb0d96cea9782d701332e6b7390f8efae3af92fd3e2aa2ac45e4a610e705d6",
+        "signature": "33bb0d96cea9782d701332e6b7390f8efae3af92fd3e2aa2ac45e4a610e705d6",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts": {
+        "version": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623",
+        "signature": "ae3e98448468e46474d817b5ebe74db11ab22c2feb60e292d96ce1a4ee963623",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": {
+        "version": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688",
+        "signature": "f0a2fdee9e801ac9320a8660dd6b8a930bf8c5b658d390ae0feafdba8b633688",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": {
+        "version": "7beb7f04f6186bdac5e622d44e4cac38d9f2b9fcad984b10d3762e369524dd77",
+        "signature": "7beb7f04f6186bdac5e622d44e4cac38d9f2b9fcad984b10d3762e369524dd77",
+        "affectsGlobalScope": false
+      },
+      "../node_modules/@nestjs/swagger/index.d.ts": {
+        "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
+        "affectsGlobalScope": false
+      },
       "../src/main.ts": {
-        "version": "2a931ecb11b7bee6e7afe1a48a08ef7058f4cc36e0ec7d6ef2c5bed6eb01ff56",
+        "version": "5893ba8f82a482c0b5e80813cfccf5b0e43544624fff4b1b2aab93483d6c3929",
         "signature": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
-        "affectsGlobalScope": false
-      },
-      "../src/category/category.service.ts": {
-        "version": "b1c79c8a0456f32587358578b99a2a7adaca98b68100894ab2b833dac3350fd7",
-        "signature": "11d44ecba4fd4290d801bd5dcb5951e12450ba1e047b71369d6b602583949d30",
-        "affectsGlobalScope": false
-      },
-      "../src/category/category.controller.ts": {
-        "version": "6f97157f5ca62a269059d281ae5b62d92dc3ea216c72f5bfd79afdf915e22279",
-        "signature": "4f9c1c00bc4c486452abe6aa2e284d415a435469e935974daa001c9d1f87fab9",
-        "affectsGlobalScope": false
-      },
-      "../src/category/category.module.ts": {
-        "version": "9bdea86cf34e9b624845d4e6f2a54e31c657678d3f4d6f6e0010a72840fd7dd0",
-        "signature": "e857c31d07301b7cb6a54eb7437723ff129979999ff2e94a5a54bf7ec3d2c0f9",
-        "affectsGlobalScope": false
-      },
-      "../src/language/language.service.ts": {
-        "version": "2641abc9d1d4aed33a10848e8e0b0761290bb99c6496fe0a890de7979b5e1a73",
-        "signature": "fd8ac03ca10d70a544371f6a6bac84324671f880a3dfb38226b3cb48b1d427fd",
-        "affectsGlobalScope": false
-      },
-      "../src/language/language.controller.ts": {
-        "version": "1b6c19c9ce6764a63132032103dbe34f61047963ed258e1888890f65a32ce5f7",
-        "signature": "aa2fc55761742f33526cb1f87d1dc04e30ce4f1425103250593fd92672f5aff6",
-        "affectsGlobalScope": false
-      },
-      "../src/language/language.module.ts": {
-        "version": "f3bf2b73ff7c6ad3e78b7d85bd184d70a7cd91998f8b184e80434462dcfe00c7",
-        "signature": "e857c31d07301b7cb6a54eb7437723ff129979999ff2e94a5a54bf7ec3d2c0f9",
         "affectsGlobalScope": false
       },
       "../node_modules/@types/anymatch/index.d.ts": {
@@ -4160,6 +4340,106 @@
       ],
       "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
+        "../node_modules/reflect-metadata/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/index.d.ts"
       ],
       "../node_modules/@nestjs/typeorm/dist/common/index.d.ts": [
         "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
@@ -6027,7 +6307,13 @@
         "../node_modules/@nestjs/typeorm/index.d.ts",
         "../src/app.controller.ts",
         "../src/app.service.ts",
+        "../src/category/category.entity.ts",
+        "../src/category/category.module.ts",
+        "../src/claim/claim.entity.ts",
         "../src/claim/claim.module.ts",
+        "../src/language/language.entity.ts",
+        "../src/language/language.module.ts",
+        "../src/question/question.entity.ts",
         "../src/question/question.module.ts"
       ],
       "../src/app.service.ts": [
@@ -6040,7 +6326,9 @@
         "../src/category/category.service.ts"
       ],
       "../src/category/category.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/claim/claim.entity.ts",
+        "../src/question/question.entity.ts"
       ],
       "../src/category/category.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -6086,7 +6374,9 @@
         "../src/language/language.service.ts"
       ],
       "../src/language/language.entity.ts": [
-        "../node_modules/typeorm/index.d.ts"
+        "../node_modules/typeorm/index.d.ts",
+        "../src/claim/claim.entity.ts",
+        "../src/question/question.entity.ts"
       ],
       "../src/language/language.module.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
@@ -6103,6 +6393,7 @@
       ],
       "../src/main.ts": [
         "../node_modules/@nestjs/core/index.d.ts",
+        "../node_modules/@nestjs/swagger/index.d.ts",
         "../src/app.module.ts"
       ],
       "../src/question/question.controller.ts": [
@@ -6744,6 +7035,106 @@
       ],
       "../node_modules/@nestjs/core/services/reflector.service.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/types/swagger-enum.type.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/api-basic.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-bearer.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-body.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-consumes.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-cookie.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-exclude-endpoint.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extension.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-extra-models.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-header.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-hide-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-oauth2.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-operation.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-param.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-produces.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-property.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-query.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-response.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-security.decorator.d.ts",
+        "../node_modules/@nestjs/swagger/dist/decorators/api-use-tags.decorator.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/document-builder.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/decorators/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/document-builder.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/utils/index.d.ts",
+        "../node_modules/reflect-metadata/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-custom-options.interface.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/swagger-document-options.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/interfaces/schema-object-metadata.interface.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/open-api-spec.interface.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/swagger-module.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../node_modules/@nestjs/swagger/dist/interfaces/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts",
+        "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/intersection-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/omit-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/partial-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/type-helpers/pick-type.helper.d.ts": [
+        "../node_modules/@nestjs/common/index.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/dist/utils/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/utils/get-schema-path.util.d.ts"
+      ],
+      "../node_modules/@nestjs/swagger/index.d.ts": [
+        "../node_modules/@nestjs/swagger/dist/index.d.ts"
       ],
       "../node_modules/@nestjs/typeorm/dist/common/index.d.ts": [
         "../node_modules/@nestjs/typeorm/dist/common/typeorm.decorators.d.ts",
@@ -8608,6 +8999,10 @@
       "../src/category/category.controller.ts": [
         "../src/category/category.service.ts"
       ],
+      "../src/category/category.entity.ts": [
+        "../src/claim/claim.entity.ts",
+        "../src/question/question.entity.ts"
+      ],
       "../src/category/category.service.ts": [
         "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",
         "../src/category/category.entity.ts"
@@ -8625,6 +9020,10 @@
       ],
       "../src/language/language.controller.ts": [
         "../src/language/language.service.ts"
+      ],
+      "../src/language/language.entity.ts": [
+        "../src/claim/claim.entity.ts",
+        "../src/question/question.entity.ts"
       ],
       "../src/language/language.service.ts": [
         "../node_modules/@nestjsx/crud-typeorm/lib/index.d.ts",

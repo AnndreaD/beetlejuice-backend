@@ -16,23 +16,30 @@ const typeorm_1 = require("typeorm");
 let ClaimEntity = class ClaimEntity {
 };
 __decorate([
-    typeorm_1.PrimaryGeneratedColumn("uuid"),
-    __metadata("design:type", String)
+    typeorm_1.PrimaryGeneratedColumn(),
+    __metadata("design:type", Number)
 ], ClaimEntity.prototype, "id", void 0);
 __decorate([
     typeorm_1.Column("varchar", { length: 1000, unique: true }),
     __metadata("design:type", String)
 ], ClaimEntity.prototype, "text", void 0);
 __decorate([
-    typeorm_1.OneToMany((type) => category_entity_1.CategoryEntity, (category) => category.name),
+    typeorm_1.ManyToOne((type) => category_entity_1.CategoryEntity, (category) => category.id, {
+        nullable: false,
+        eager: true,
+    }),
     __metadata("design:type", category_entity_1.CategoryEntity)
 ], ClaimEntity.prototype, "category", void 0);
 __decorate([
-    typeorm_1.OneToMany((type) => language_entity_1.LanguageEntity, (language) => language.name),
+    typeorm_1.ManyToOne((type) => language_entity_1.LanguageEntity, (language) => language.id, {
+        nullable: false,
+        eager: true,
+    }),
+    typeorm_1.JoinColumn(),
     __metadata("design:type", language_entity_1.LanguageEntity)
 ], ClaimEntity.prototype, "language", void 0);
 ClaimEntity = __decorate([
-    typeorm_1.Entity("question")
+    typeorm_1.Entity("claim")
 ], ClaimEntity);
 exports.ClaimEntity = ClaimEntity;
 //# sourceMappingURL=claim.entity.js.map

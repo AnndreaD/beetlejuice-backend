@@ -1,23 +1,38 @@
 import { CategoryEntity } from "src/category/category.entity";
 import { LanguageEntity } from "src/language/language.entity";
-import { Entity, PrimaryGeneratedColumn, Column, OneToMany } from "typeorm";
+import {
+  Entity,
+  PrimaryGeneratedColumn,
+  Column,
+  ManyToOne,
+  JoinColumn,
+} from "typeorm";
 
-@Entity("question")
+@Entity("claim")
 export class ClaimEntity {
-  @PrimaryGeneratedColumn("uuid") id: string;
+  @PrimaryGeneratedColumn() id: number;
 
   @Column("varchar", { length: 1000, unique: true })
   text: string;
 
-  @OneToMany(
+  @ManyToOne(
     (type) => CategoryEntity,
-    (category) => category.name
+    (category) => category.id,
+    {
+      nullable: false,
+      eager: true,
+    }
   )
   category: CategoryEntity;
 
-  @OneToMany(
+  @ManyToOne(
     (type) => LanguageEntity,
-    (language) => language.name
+    (language) => language.id,
+    {
+      nullable: false,
+      eager: true,
+    }
   )
+  @JoinColumn()
   language: LanguageEntity;
 }
