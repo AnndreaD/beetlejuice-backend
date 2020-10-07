@@ -17,8 +17,8 @@ import { ClaimEntity } from "./claim.entity";
 export class ClaimController {
   constructor(public service: ClaimService) {}
 
-  @Get("/randomquantity:number")
-  async findRandomizedByQuantity(@Param("quantity") quantity: number) {
+  @Get("/randomquantity/:quantity")
+  async findRandomizedByQuantity(@Param("quantity") quantity: string) {
     return this.service.findRandomizedByQuantity(quantity);
   }
 

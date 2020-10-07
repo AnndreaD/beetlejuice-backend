@@ -2812,13 +2812,13 @@
         "affectsGlobalScope": false
       },
       "../src/claim/claim.service.ts": {
-        "version": "55ead69627c6d955ed39ddda69410162e6884233769aa4fecc46cea355640442",
-        "signature": "15c1c49ce6679f18eefdaad46cfea5cfa8705c6affa6d862aaf20981aa001192",
+        "version": "a7b3f04fed42afb2eaf71602dd5aaa374631ea9249860bdccc961c1f836a8dd4",
+        "signature": "6cf054c91b1d2694fc1016ddcc7f5ecbd9bd7c9964bddf0b49ab4ce5a4b2cbdb",
         "affectsGlobalScope": false
       },
       "../src/claim/claim.controller.ts": {
-        "version": "6080dc9460af5a61b396b159589d844753de6e81ceb036720faff54d74616ea2",
-        "signature": "254c1c81a76b1c464752e6ed1dc10f0058b378692e96f1997b09b3c8230dfe47",
+        "version": "6f7de4a163951a9d39c3a81a376fa921ab615e595fa185b2b492fc87515d573c",
+        "signature": "c443b4090c642ae67e4b959f9c91b0c5e19c077e14bb796b03f42cc41084b865",
         "affectsGlobalScope": false
       },
       "../src/claim/claim.module.ts": {

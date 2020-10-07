@@ -14,7 +14,7 @@ export class ClaimService extends TypeOrmCrudService<ClaimEntity> {
   // middleground -> middleground + easy
   // easy -> only easy
 
-  findRandomizedByQuantity(quantity: number) {
+  findRandomizedByQuantity(quantity: string) {
     return this.repo.query(
       `select * from claim order by random() limit ${quantity};`
     );

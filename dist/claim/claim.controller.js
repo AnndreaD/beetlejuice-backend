@@ -29,10 +29,10 @@ let ClaimController = class ClaimController {
     }
 };
 __decorate([
-    common_1.Get("/randomquantity:number"),
+    common_1.Get("/randomquantity/:quantity"),
     __param(0, common_1.Param("quantity")),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [Number]),
+    __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
 ], ClaimController.prototype, "findRandomizedByQuantity", null);
 __decorate([
