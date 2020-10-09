@@ -24,8 +24,8 @@ let ClaimService = class ClaimService extends crud_typeorm_1.TypeOrmCrudService 
     findRandomizedByQuantity(quantity) {
         return this.repo.query(`select * from claim order by random() limit ${quantity};`);
     }
-    findByRandomizedQLC(quantity, language, category) {
-        return this.repo.query(`select * from claim where "languageId"=${language} and  "categoryId"=${category} order by random() limit ${quantity};`);
+    findByRandomizedQLC(quantity, languageid, categoryid) {
+        return this.repo.query(`select * from claim where "languageId"=${languageid} and  "categoryId"=${categoryid} order by random() limit ${quantity};`);
     }
 };
 ClaimService = __decorate([

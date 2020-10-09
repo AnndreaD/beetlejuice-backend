@@ -23,12 +23,12 @@ export class QuestionController {
     return this.service.findRandomizedByQuantity(quantity);
   }
 
-  @Get("/randomquantity/:quantity/:language/:category")
+  @Get("/randomquantity/:quantity/:languageid/:categoryid")
   async findRandomizedByQLC(
     @Param("quantity") quantity: number,
-    @Param("language") language: number,
-    @Param("category") category: number
+    @Param("languageid") languageid: number,
+    @Param("categoryid") categoryid: number
   ) {
-    return this.service.findByRandomizedQLC(quantity, language, category);
+    return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
   }
 }
