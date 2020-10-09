@@ -14,16 +14,20 @@ export class ClaimService extends TypeOrmCrudService<ClaimEntity> {
   // middleground -> middleground + easy
   // easy -> only easy
 
-  findRandomizedByQuantity(quantity: number) {
+  findRandomizedByQuantity(quantity: string) {
     return this.repo.query(
       `select * from claim order by random() limit ${quantity};`
     );
   }
 
   //find by quantity, language and category - randomized
-  findByRandomizedQLC(quantity: number, language: number, category: number) {
+  findByRandomizedQLC(
+    quantity: number,
+    languageid: number,
+    categoryid: number
+  ) {
     return this.repo.query(
-      `select * from claim where "languageId"=${language} and  "categoryId"=${category} order by random() limit ${quantity};`
+      `select * from claim where "languageId"=${languageid} and  "categoryId"=${categoryid} order by random() limit ${quantity};`
     );
   }
 }

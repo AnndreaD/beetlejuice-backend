@@ -17,17 +17,17 @@ import { ClaimEntity } from "./claim.entity";
 export class ClaimController {
   constructor(public service: ClaimService) {}
 
-  @Get("/randomquantity:number")
-  async findRandomizedByQuantity(@Param("quantity") quantity: number) {
+  @Get("/randomquantity/:quantity")
+  async findRandomizedByQuantity(@Param("quantity") quantity: string) {
     return this.service.findRandomizedByQuantity(quantity);
   }
 
-  @Get("/randomquantityqlc:number")
+  @Get("/randomquantityqlc/:quantity/:languageid/:categoryid")
   async findRandomizedByQLC(
     @Param("quantity") quantity: number,
-    @Param("language") language: number,
-    @Param("category") category: number
+    @Param("languageid") languageid: number,
+    @Param("categoryid") categoryid: number
   ) {
-    return this.service.findByRandomizedQLC(quantity, language, category);
+    return this.service.findByRandomizedQLC(quantity, languageid, categoryid);
   }
 }
