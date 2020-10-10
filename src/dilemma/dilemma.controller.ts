@@ -1,10 +1,11 @@
 import { Controller, Get, Query, Param } from "@nestjs/common";
 import { Crud } from "@nestjsx/crud";
-import { ClaimService } from "./claim.service";
-import { ClaimEntity } from "./claim.entity";
+import { DilemmaEntity } from "./dilemma.entity";
+import { DilemmaService } from "./dilemma.service";
+
 @Crud({
   model: {
-    type: ClaimEntity,
+    type: DilemmaEntity,
   },
   params: {
     id: {
@@ -13,9 +14,9 @@ import { ClaimEntity } from "./claim.entity";
     },
   },
 })
-@Controller("claim")
-export class ClaimController {
-  constructor(public service: ClaimService) {}
+@Controller("dilemma")
+export class DilemmaController {
+  constructor(public service: DilemmaService) {}
 
   @Get("/randomquantity/:quantity")
   async findRandomizedByQuantity(@Param("quantity") quantity: string) {

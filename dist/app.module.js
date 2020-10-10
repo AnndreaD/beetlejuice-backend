@@ -19,6 +19,7 @@ const question_entity_1 = require("./question/question.entity");
 const language_entity_1 = require("./language/language.entity");
 const category_entity_1 = require("./category/category.entity");
 const claim_entity_1 = require("./claim/claim.entity");
+const dilemma_entity_1 = require("./dilemma/dilemma.entity");
 let AppModule = class AppModule {
 };
 AppModule = __decorate([
@@ -34,6 +35,7 @@ AppModule = __decorate([
                 language_entity_1.LanguageEntity,
                 category_entity_1.CategoryEntity,
                 claim_entity_1.ClaimEntity,
+                dilemma_entity_1.DilemmaEntity
             ]),
         ],
         controllers: [app_controller_1.AppController],

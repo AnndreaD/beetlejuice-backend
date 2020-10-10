@@ -12,12 +12,12 @@ var __param = (this && this.__param) || function (paramIndex, decorator) {
     return function (target, key) { decorator(target, key, paramIndex); }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ClaimController = void 0;
+exports.DilemmaController = void 0;
 const common_1 = require("@nestjs/common");
 const crud_1 = require("@nestjsx/crud");
-const claim_service_1 = require("./claim.service");
-const claim_entity_1 = require("./claim.entity");
-let ClaimController = class ClaimController {
+const dilemma_entity_1 = require("./dilemma.entity");
+const dilemma_service_1 = require("./dilemma.service");
+let DilemmaController = class DilemmaController {
     constructor(service) {
         this.service = service;
     }
@@ -34,7 +34,7 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [String]),
     __metadata("design:returntype", Promise)
-], ClaimController.prototype, "findRandomizedByQuantity", null);
+], DilemmaController.prototype, "findRandomizedByQuantity", null);
 __decorate([
     common_1.Get("/randomquantity/:quantity/:languageid/:categoryid"),
     __param(0, common_1.Param("quantity")),
@@ -43,11 +43,11 @@ __decorate([
     __metadata("design:type", Function),
     __metadata("design:paramtypes", [Number, Number, Number]),
     __metadata("design:returntype", Promise)
-], ClaimController.prototype, "findRandomizedByQLC", null);
-ClaimController = __decorate([
+], DilemmaController.prototype, "findRandomizedByQLC", null);
+DilemmaController = __decorate([
     crud_1.Crud({
         model: {
-            type: claim_entity_1.ClaimEntity,
+            type: dilemma_entity_1.DilemmaEntity,
         },
         params: {
             id: {
@@ -56,8 +56,8 @@ ClaimController = __decorate([
             },
         },
     }),
-    common_1.Controller("claim"),
-    __metadata("design:paramtypes", [claim_service_1.ClaimService])
-], ClaimController);
-exports.ClaimController = ClaimController;
-//# sourceMappingURL=claim.controller.js.map
+    common_1.Controller("dilemma"),
+    __metadata("design:paramtypes", [dilemma_service_1.DilemmaService])
+], DilemmaController);
+exports.DilemmaController = DilemmaController;
+//# sourceMappingURL=dilemma.controller.js.map
