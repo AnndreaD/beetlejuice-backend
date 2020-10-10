@@ -10,6 +10,7 @@ import { QuestionEntity } from "./question/question.entity";
 import { LanguageEntity } from "./language/language.entity";
 import { CategoryEntity } from "./category/category.entity";
 import { ClaimEntity } from "./claim/claim.entity";
+import { DilemmaEntity } from "./dilemma/dilemma.entity";
 
 @Module({
   imports: [
@@ -23,6 +24,8 @@ import { ClaimEntity } from "./claim/claim.entity";
       LanguageEntity,
       CategoryEntity,
       ClaimEntity,
+      DilemmaEntity
+
     ]),
   ],
   controllers: [AppController],

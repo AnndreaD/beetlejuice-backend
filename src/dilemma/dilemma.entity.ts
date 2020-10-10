@@ -7,8 +7,8 @@ import {
   ManyToOne,
 } from "typeorm";
 
-@Entity("question")
-export class QuestionEntity {
+@Entity("dilemma")
+export class DilemmaEntity {
   @PrimaryGeneratedColumn() id: number;
 
   @Column("varchar", { length: 1000, unique: true })
